@@ -4,7 +4,11 @@ movie_info
 Queries IMDB for information on a movie
 
 Movie Info is a work in progress, the end state is to be able to look at a movie folder and return information on your collection. 
-Movies can then be sorted and grouped based on user ratings, genre, actor, etc.
+Movies can then be sorted and grouped based on user ratings, genre, actor, etc. <p><p>
+
+To use:<p>
+<code> python wtftowatch.py "MOVIE TO SEARCH" (-d) </code><p>
+The '-d' will enable debug mode, creating a log of the HTML output for testing purposes if the program crashes <p>
 
 3rd Party libraries are:
 - [BS4](http://www.crummy.com/software/BeautifulSoup/) <p>
